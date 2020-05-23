@@ -16,8 +16,8 @@ int Solution::solve(int A, vector<int> &B)
     int n = B.size();
     sort(B.begin(),B.end());
     
-    vector<long long> fact(1000+1,1);
-    for(int i = 1; i<=1000 ;i++)
+    vector<long long> fact(A+1,1);
+    for(int i = 1; i<=A ;i++)
     {
         fact[i] = (i*fact[i-1])%mod;
     }
