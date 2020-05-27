@@ -1,3 +1,4 @@
+//https://medium.com/@jatingrover1358/maximum-unsorted-subarray-e186bbf2d40e
 vector<int> Solution::subUnsort(vector<int> &A) 
 {
     int l = -1;
